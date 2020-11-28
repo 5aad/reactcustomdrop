@@ -51,7 +51,7 @@ export default function DropDownCustom(props) {
                   {item.value}
                   <div>
                     {nestlistOpen ? (
-                      <ChevronUp size={24} />
+                      <ChevronDown size={24} />
                     ) : (
                       <ChevronDown size={24} />
                     )}
